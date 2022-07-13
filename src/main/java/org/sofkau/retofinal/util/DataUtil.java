@@ -12,7 +12,7 @@ public class DataUtil {
         result.add(new User(Boolean.FALSE, "sbarrera.96@hotmail.com"));
         result.add(new User(Boolean.FALSE, "sbarrera.96@hotmail.com"));
         result.add(new User(Boolean.FALSE, "sbarrera.96@hotmail.com"));
-        result.add(new User(Boolean.FALSE, "sebama96@gmail.com"));
+        result.add(new User(Boolean.FALSE, "sebas@gmail.com"));
         result.add(new User(Boolean.FALSE, "sebama96@gmail.com"));
         result.add(new User(Boolean.FALSE, "sebama96@outlook.edu.co"));
         return result;
