@@ -1,27 +1,27 @@
 package org.sofkau.retofinal.model;
 
 public class User {
-    private String name;
+    private Boolean emailState;
     private String email;
 
     public User() {
     }
 
-    public User(String name, String email) {
-        this.name = name;
+    public User(Boolean name, String email) {
+        this.emailState = name;
         this.email = email;
     }
 
-    public String getName() {
-        return name;
+    public Boolean getEmailState() {
+        return emailState;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEmailState(Boolean emailState) {
+        this.emailState = emailState;
     }
 
     public void setEmail(String email) {

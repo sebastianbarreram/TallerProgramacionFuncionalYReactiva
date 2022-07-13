@@ -2,27 +2,28 @@ package org.sofkau.retofinal.ejercicio1;
 
 import org.sofkau.retofinal.model.User;
 import org.sofkau.retofinal.util.DataUtil;
-
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class LiteralB {
-    public static List<Long> execute() {
+    public static List<List<String>> execute() {
         List<User> users = DataUtil.getUsers();
-        long usersGmail = users.stream()
+        List<String> usersGmail = users.stream()
                 .filter(user -> user.getEmail().contains("@gmail"))
-                .count();
-        long usersHotmail = users.stream()
+                .map(userFilter->userFilter.getEmail())
+                .collect(Collectors.toList());
+        List<String> usersHotmail = users.stream()
                 .filter(user -> user.getEmail().contains("@hotmail"))
-                .count();
-        long usersOutlook = users.stream()
+                .map(userFilter->userFilter.getEmail())
+                .collect(Collectors.toList());
+        List<String> usersOutlook = users.stream()
                 .filter(user -> user.getEmail().contains("@outlook"))
-                .count();
-        return List.of(usersGmail, usersHotmail, usersOutlook);
+                .map(userFilter->userFilter.getEmail())
+                .collect(Collectors.toList());
+        return List.of(usersGmail,usersHotmail,usersOutlook);
     }
 
     public static void main(String[] args) {
-        System.out.println(LiteralB.execute());
+        LiteralB.execute().forEach(list->System.out.println(list));
     }
 }
