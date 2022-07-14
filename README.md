@@ -11,11 +11,11 @@ Para el buen funcionamiento de la aplicación se deben ejecutar cada una de las 
 
 Crear una lista de mínimo 30 correos, de los cuales se le deben aplicar los siguientes operadores:
 
-- a) Distinct: para ver si hay correo repetidos, si hay correos repetidos eliminarlos
+- a) Distinct: para ver si hay correo repetidos, si hay correos repetidos eliminarlos.
 - b) Filtro: para saber si hay correos con dominio gmail, hotmail y outlook.
-- c) Map: para saber si todos los correos cumple con todas las condiciones (Que cuente con el @ y el dominio)
-- d) Saber la cantidad de correos que hay, sin usar un ciclo
-- e) Saber la cantidad de correos gmail, hotmail y outlook sin usar un ciclo
+- c) Map: para saber si todos los correos cumple con todas las condiciones (Que cuente con el @ y el dominio).
+- d) Saber la cantidad de correos que hay, sin usar un ciclo.
+- e) Saber la cantidad de correos gmail, hotmail y outlook sin usar un ciclo.
 
 En la misma lista determinar si se envió un correo o no a cada uno de los correos, si se le envió cambiar el estado en la lista, todo esto respetando la inmutabilidad.
 
