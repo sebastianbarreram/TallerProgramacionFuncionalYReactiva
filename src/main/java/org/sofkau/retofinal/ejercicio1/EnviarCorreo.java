@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class EnviarCorreo {
-    public static List<User> execute(String email) {
-        List<User> users = DataUtil.getUsers();
+    public static List<User> execute(List<User> users,String email) {
         List<User> newUsers = users.stream()
                 .map(user -> {
                     return user.getEmail().equals(email) ?
@@ -20,8 +19,12 @@ public class EnviarCorreo {
     }
 
     public static void main(String[] args) {
-        EnviarCorreo.execute("sebas@gmail.com")
-                .forEach(user -> System.out.println(
+        List<User> newUsers = EnviarCorreo.execute(DataUtil.getUsers(),"sebas@gmail.com");
+        newUsers.forEach(user -> System.out.println(
+                        user.getEmail() + " " + user.getEmailState()));
+        System.out.println("-------------------------------------------");
+        List<User> newUsers2 = EnviarCorreo.execute(newUsers,"sebama96@gmail.com");
+        newUsers2.forEach(user -> System.out.println(
                         user.getEmail() + " " + user.getEmailState()));
     }
 }

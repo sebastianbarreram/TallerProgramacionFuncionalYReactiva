@@ -53,7 +53,20 @@
       <recent name="org.sofkau.retofinal.ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DifferentiationAndIntegration">
+  <component name="RunManager" selected="Application.Chat">
+    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio2.Chat" />
+      <module name="TallerProgramacionReactivaYFuncional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sofkau.retofinal.ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DifferentiationAndIntegration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio3.DifferentiationAndIntegration" />
       <module name="TallerProgramacionReactivaYFuncional" />
@@ -93,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiteralC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralC" />
-      <module name="TallerProgramacionReactivaYFuncional" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sofkau.retofinal.ejercicio1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LiteralD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralD" />
       <module name="TallerProgramacionReactivaYFuncional" />
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DifferentiationAndIntegration" />
+        <item itemvalue="Application.Chat" />
         <item itemvalue="Application.EnviarCorreo" />
+        <item itemvalue="Application.DifferentiationAndIntegration" />
         <item itemvalue="Application.LiteralA" />
         <item itemvalue="Application.LiteralD" />
-        <item itemvalue="Application.LiteralC" />
       </list>
     </recent_temporary>
   </component>
