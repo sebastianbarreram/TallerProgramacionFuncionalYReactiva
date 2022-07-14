@@ -2,11 +2,21 @@ package org.sofkau.retofinal.ejercicio1;
 
 import org.sofkau.retofinal.model.User;
 import org.sofkau.retofinal.util.DataUtil;
+
 import java.util.List;
 
+/**
+ * Esta clase es la solución al literal e del ejercicio 1
+ */
 public class LiteralE {
-    public static List<Long> execute() {
-        List<User> users = DataUtil.getUsers();
+    /**
+     * Esta funcion cuenta cuantos correos hay en el listado de usuarios
+     * con dominio gmail, hotmail y outlook, y los almacena en listas separadas
+     *
+     * @param users lista de usuarios
+     * @return listado con la cantidad de correos con dominio gmail, hotmail y outlook
+     */
+    public static List<Long> execute(List<User> users) {
         long usersGmail = users.stream()
                 .filter(user -> user.getEmail().contains("@gmail"))
                 .count();
@@ -20,6 +30,7 @@ public class LiteralE {
     }
 
     public static void main(String[] args) {
-        System.out.println(LiteralE.execute());
+        List<User> users = DataUtil.getUsers();
+        System.out.println(LiteralE.execute(users));
     }
 }

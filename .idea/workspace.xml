@@ -53,7 +53,7 @@
       <recent name="org.sofkau.retofinal.ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chat">
+  <component name="RunManager" selected="Application.DifferentiationAndIntegration">
     <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio2.Chat" />
       <module name="TallerProgramacionReactivaYFuncional" />
@@ -93,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiteralA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralA" />
+    <configuration name="LiteralD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralD" />
       <module name="TallerProgramacionReactivaYFuncional" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiteralD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralD" />
+    <configuration name="LiteralE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sofkau.retofinal.ejercicio1.LiteralE" />
       <module name="TallerProgramacionReactivaYFuncional" />
       <extension name="coverage">
         <pattern>
@@ -132,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DifferentiationAndIntegration" />
         <item itemvalue="Application.Chat" />
         <item itemvalue="Application.EnviarCorreo" />
-        <item itemvalue="Application.DifferentiationAndIntegration" />
-        <item itemvalue="Application.LiteralA" />
+        <item itemvalue="Application.LiteralE" />
         <item itemvalue="Application.LiteralD" />
       </list>
     </recent_temporary>
